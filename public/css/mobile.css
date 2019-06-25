@@ -1,0 +1,118 @@
+/* MEDIA queries for Phone */
+@media (min-width: 320px) {
+  @viewport {
+    width: device-width;
+    zoom: 1;
+  }
+  * {
+    box-sizing: content-box;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    padding: 0;
+    color: white;
+  }
+  body {
+    background: white;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+  }
+  .header {
+    position: relative;
+    top: 60px;
+    right: 100px;
+  }
+  .intro-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0626c7;
+    height: 50%;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .logo img {
+    height: 90px;
+    width: 200px;
+    position: relative;
+    left: 90px;
+  }
+  nav {
+    display: none;
+  }
+  .btn {
+    padding: 10px;
+    background-color: orange;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    bottom: -10px;
+    right: 0px;
+    left: 0px;
+    width: 25%;
+  }
+  #desp {
+    position: relative;
+    top: 60px;
+    left: 95px;
+  }
+
+  #desp h6 {
+    text-align: left;
+    position: relative;
+    left: 0px;
+    width: 80%;
+  }
+
+  /* why AIDASH */
+  #why {
+    background-color: orange;
+    height: 55%;
+    width: 80%;
+    position: absolute;
+    top: 500px;
+    left: 10%;
+  }
+  #heading {
+    width: 40%;
+  }
+  #points {
+    width: 50%;
+    color: white;
+    text-align: left;
+  }
+  #points h3 {
+    font-weight: bold;
+  }
+
+  #container_one {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+  #container_two {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+  }
+  #container_two img {
+    position: absolute;
+    top: 450px;
+    left: -50px;
+    width: 250px;
+    height: 250px;
+  }
+}

@@ -1,2 +1,0 @@
-# AIDASH
-Created with CodeSandbox
